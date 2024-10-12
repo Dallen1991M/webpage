@@ -1,0 +1,56 @@
+/* General Navbar Styling 
+.navbar {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav-logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .nav-icon {
+    display: none;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #8A6CFF;
+  }
+  
